@@ -1,0 +1,23 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.bottomright {
+  position: absolute;
+  width: 7vw;
+  bottom: 20vh;
+  right: 10vw;
+}
+/*# sourceMappingURL=style.css.map */
