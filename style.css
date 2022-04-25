@@ -14,10 +14,81 @@
   height: auto;
 }
 
-.bottomright {
+.container .theater {
   position: absolute;
   width: 7vw;
-  bottom: 20vh;
-  right: 10vw;
+  top: 37vh;
+  right: 15vw;
+}
+
+.container .contests {
+  position: absolute;
+  width: 7vw;
+  top: 14vh;
+  left: 45vw;
+}
+
+.container .mall {
+  position: absolute;
+  width: 10vw;
+  top: 35vh;
+  left: 25vw;
+}
+
+.container .library {
+  position: absolute;
+  width: 6.7vw;
+  bottom: 40vh;
+  left: 40vw;
+}
+
+.anima {
+  -webkit-animation: anima 1s infinite;
+          animation: anima 1s infinite;
+}
+
+.anima:nth-child(2) {
+  -webkit-animation: anima 1.05s infinite;
+          animation: anima 1.05s infinite;
+}
+
+.anima:nth-child(3) {
+  -webkit-animation: anima 1.2s infinite;
+          animation: anima 1.2s infinite;
+}
+
+.anima:nth-child(4) {
+  -webkit-animation: anima 1.3s infinite;
+          animation: anima 1.3s infinite;
+}
+
+@-webkit-keyframes anima {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes anima {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
 }
 /*# sourceMappingURL=style.css.map */
